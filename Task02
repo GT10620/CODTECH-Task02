@@ -1,0 +1,19 @@
+Load Dataset:
+
+Generate a synthetic dataset with random values for X and a linear relationship for y with added noise.
+Combine X and y into a pandas DataFrame.
+Split Data:
+
+Use train_test_split to divide the dataset into training (80%) and testing (20%) sets.
+Train Model:
+
+Create a linear regression model using LinearRegression from scikit-learn.
+Fit the model to the training data.
+Evaluate Model:
+
+Make predictions on both training and testing sets.
+Calculate and print the mean squared error (MSE) and R-squared values for both sets.
+Visualize Results:
+
+Plot the regression line along with training and testing data points.
+Plot actual vs. predicted values for the testing set to assess the model's performance visually.
